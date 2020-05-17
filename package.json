@@ -1,0 +1,46 @@
+{
+  "author": "Soare Razvan",
+  "description": "Boilerplate for designer playground",
+  "license": "ISC",
+  "main": "gatsby-config.js",
+  "name": "designer-playground",
+  "version": "1.0.0",
+  "scripts": {
+    "analyze:lint": "eslint --ext .jsx --ext .js .",
+    "analyze:prettier": "prettier --list-different '**/*.{js,css,md,json}'",
+    "analyze": "npm run analyze:lint && npm run analyze:prettier",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "fix:lint": "eslint --ext .jsx --ext .js . --fix",
+    "fix:prettier": "prettier --write '**/*.{js,css,md,json}'",
+    "fix": "npm run fix:lint && npm run fix:prettier",
+    "start": "npm run develop",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "2.21.21",
+    "gatsby-image": "^2.2.3",
+    "gatsby-plugin-manifest": "2.4.2",
+    "gatsby-plugin-offline": "^3.2.1",
+    "gatsby-plugin-postcss": "^2.0.7",
+    "gatsby-plugin-purgecss": "^5.0.0",
+    "gatsby-plugin-sharp": "^2.2.1",
+    "gatsby-transformer-remark": "^2.5.0",
+    "gatsby-transformer-sharp": "^2.2.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "10.0.2",
+    "eslint": "7.0.0",
+    "eslint-config-react-app": "5.2.1",
+    "eslint-plugin-flowtype": "4.7.0",
+    "eslint-plugin-import": "2.20.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.19.0",
+    "eslint-plugin-react-hooks": "4.0.0",
+    "prettier": "2.0.5",
+    "tailwindcss": "1.4.6",
+    "tailwindcss-transforms": "^2.1.0"
+  }
+}
